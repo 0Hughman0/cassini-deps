@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cassini-deps"
+version = "0.1.0"
+description = "Cassini extension, providing per-notebook dependency management."
+authors = ["Hugh Ramsden <hugh.o.ramsden@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+cassini = "^0.2.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
